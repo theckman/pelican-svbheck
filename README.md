@@ -56,6 +56,15 @@ Supports a number of common global variables but patches are welcomed if you nee
 
 When developing locally, you may want to set the following variable: `SITEURL = http://localhost:8000`
 
+## Post Metadata
+
+I've also added support for two different metadata fields within the article that will display on the specific artcle page.
+
+- `hackernews` provide a URL to the posted HackerNews comments so people can comment
+- `reddit` provide a URL to the posted Reddit comments so people can comment
+
+You can see how to use the file metadata [here.](http://docs.getpelican.com/en/3.1.1/getting_started.html#file-metadata)
+
 ## Modifications
 
 - A different Pygmentize theme can be used by editing `./Makefile` and running `make pygments`.
